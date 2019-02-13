@@ -8,8 +8,12 @@ public class CheckMove {
         this.game = game;
     }
 
+    public CheckMove(){
+
+    }
+
     public boolean checkMove(int linie, int coloana){
-        if(game.getTableValue(linie,coloana) !=0)
+            if(game.getTableValue(linie,coloana) !=0)
         {
             return false;
         }
