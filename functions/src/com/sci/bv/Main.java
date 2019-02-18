@@ -1,4 +1,3 @@
-//@author Sava Florin
 package com.sci.bv;
 
 import java.util.Scanner;
@@ -43,7 +42,7 @@ public class Main {
         System.out.println("Insert minute ");
         alDoileaNumar = scan.nextInt();
 
-    t1.hourAndMinutes(primulNumar,alDoileaNumar);
+        System.out.println(t1.hourAndMinutes(primulNumar,alDoileaNumar));
 
     }
 }
