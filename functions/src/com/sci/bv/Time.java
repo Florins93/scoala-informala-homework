@@ -7,7 +7,7 @@ public class Time {
 
 
         if(hour>=0 && hour<=23 && minutes>=0 && minutes<=59 ){
-            return " The time is "+ hour +": "+minutes+" now.";
+            return "The time is"+ hour +": "+minutes+" now.";
         }else {
             return " Incorrect time!";
         }

@@ -10,6 +10,12 @@ class DegreesTest {
     private Degrees d = new Degrees();
     @Test
     void toCelsius() {
-        Assertions.assertEquals(10, d.toCelsius(120));
+        Assertions.assertEquals(10, d.toCelsius(50));
     }
+
+    @Test
+    void toCelsiusFalse() {
+        Assertions.assertEquals(11, d.toCelsius(120));
+    }
+
 }
